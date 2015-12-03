@@ -3,7 +3,6 @@
 import wikipedia
 import sys
 from random import randint as rand
-import markov
 
 
 class Face:
