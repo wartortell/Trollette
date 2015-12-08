@@ -1,7 +1,9 @@
 #! /usr/bin/python
 # Requires wikipedia.py, wiki2plain.py, and python yaml
 import wikipedia
+import os
 import sys
+import unicodedata
 from random import randint as rand
 
 
@@ -15,7 +17,12 @@ class Face:
 
     def set_topic(self, new_topic):
         self.topic = new_topic
-        self.content = self.get_text()
+        topic_path = os.path.join("Content", "%s.txt" % new_topic)
+        if os.path.exists(topic_path):
+            with open(topic_path, "r") as f:
+                self.content = f.read()
+        else:
+            self.content = self.get_text()
 
     def get_text(self):
 
@@ -74,6 +81,55 @@ class Face:
         except wikipedia.exceptions.PageError as e:
             self.content += self.topic + ' is sometimes hard to find'
         return self.content
+
+    def research_topic(self, topic, logger):
+        content = ""
+
+        # do a wikipedia search for the topic
+        topic_results = wikipedia.search(topic)
+
+        logger("  Search returned %d articles on %s" % (len(topic_results), topic))
+        for i in range(len(topic_results)):
+            try:
+                data = wikipedia.page(topic_results[i]).content
+                if type(data) is str:
+                    content += data
+                elif type(data) is unicode:
+                    content += unicodedata.normalize('NFKD', data).encode('ascii', 'ignore')
+            except:
+                pass
+
+        return content
+
+    def fully_research_topic(self, topic, logger):
+        content = ""
+
+        content += self.research_topic(topic, logger)
+
+        #except wikipedia.exceptions.DisambiguationError as e:
+        #    self.content += topic + ' can mean many things but to me it is'
+        #except wikipedia.exceptions.PageError as e:
+        #    self.content += topic + ' is sometimes hard to find'
+        #except Exception as e:
+        #    print e
+
+        # if there are more than one word in the topic try to get some more results with the first and last word
+        topic_split = topic.split()
+        if len(topic_split) > 1:
+            for i in range(len(topic_split)):
+                try:
+                    # Skip words that are less than five characters
+                    if len(topic_split[i]) < 3:
+                        continue
+
+                    content += self.research_topic(topic_split[i], logger)
+
+                except wikipedia.exceptions.DisambiguationError as e:
+                    content += topic + ' can mean many things but to me it is'
+                except wikipedia.exceptions.PageError as e:
+                    content += topic + ' is sometimes hard to find'
+
+        return content
 
     def parse_text(self):
         phrases = []
