@@ -106,13 +106,6 @@ class Face:
 
         content += self.research_topic(topic, logger)
 
-        #except wikipedia.exceptions.DisambiguationError as e:
-        #    self.content += topic + ' can mean many things but to me it is'
-        #except wikipedia.exceptions.PageError as e:
-        #    self.content += topic + ' is sometimes hard to find'
-        #except Exception as e:
-        #    print e
-
         # if there are more than one word in the topic try to get some more results with the first and last word
         topic_split = topic.split()
         if len(topic_split) > 1:
@@ -172,7 +165,7 @@ class Face:
         bullets = []
         sentences = self.content.split('.')
         for ea in sentences:
-            if len(ea) in range(50,75) and "\n" not in ea and "=" not in ea:
+            if len(ea) in range(50, 75) and "\n" not in ea and "=" not in ea:
                 bullets.append(ea)
         return bullets
 

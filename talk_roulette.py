@@ -15,9 +15,6 @@ import urlparse
 import urllib2
 import simplejson
 
-import Tkinter as tk
-import ttk
-
 from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.enum.text import PP_PARAGRAPH_ALIGNMENT
@@ -28,7 +25,7 @@ from slide_weights import SlideWeights
 from content_troll import Face
 
 from pymarkovchain import MarkovChain
-
+import Tkinter as tk
 
 class MyOpener(FancyURLopener, object):
     version = "Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
@@ -40,8 +37,8 @@ class Trollette:
         self.title = ""
 
         self.slide_count = 0
-        self.slide_min = 15
-        self.slide_max = 25
+        self.slide_min = 10
+        self.slide_max = 12
 
         self.console = None
         self.output_dir = ""
@@ -108,14 +105,6 @@ class Trollette:
         except:
             self.log("Problem generating content for a talk on %s, exiting..." % self.title)
             return
-
-        #self.farm_gif_term(self.title)
-        #sp = self.title.split(" ")
-        #if len(sp) > 1:
-        #    for i in range(len(sp)):
-        #        if len(sp[i]) > 5:
-        #            self.farm_gif_term(sp[i])
-        #self.farm_image_term(self.title)
 
         self.log_slide_weights()
 
@@ -471,7 +460,7 @@ class Trollette:
         file_hasher.update(image_bytes)
         return file_hasher.hexdigest()
 
-    def farm_image_term(self, term, amount=25, threshold=10):
+    def farm_image_term(self, term, amount=35, threshold=10):
         self.log("Farming images for %s..." % term)
 
         if not (term in self.images):
@@ -526,7 +515,7 @@ class Trollette:
         for term in all_farm:
             self.farm_image_term(term, amount, threshold)
 
-    def farm_gif_term(self, term, amount=25, threshold=10):
+    def farm_gif_term(self, term, amount=35, threshold=10):
         self.log("Farming GIFs for %s..." % term)
 
         if not (term in self.gifs):
@@ -564,7 +553,7 @@ class Trollette:
         with open(os.path.join("GIFs", "hashes.json"), "w") as f:
             json.dump(self.gifs, f, indent=2)
 
-    def farm_gifs(self, amount=25, threshold=10):
+    def farm_gifs(self, amount=35, threshold=10):
         self.show_term_counts("giphy_searches", self.gifs)
 
         all_farm = self.terms["giphy_searches"]
@@ -607,396 +596,6 @@ class Trollette:
             print(message)
 
 
-class TrolletteApp(tk.Frame):
-    ''' An example application for TkInter.  Instantiate
-        and call the run method to run. '''
-    def __init__(self, master):
-        # Initialize window using the parent's constructor
-        tk.Frame.__init__(self, master, width=1000, height=800)
-
-        self.master.title("Trollette")
-
-        self.pack_propagate(0)
-
-        self.troll = Trollette()
-
-        # Talk Title and Presenter entries
-        tk.Label(master, text="Talk Title", anchor="w").grid(row=0, column=0)
-        tk.Label(master, text="Talk Title (Custom)", anchor="w").grid(row=1, column=0)
-        tk.Label(master, text="Presenter (Optional)", anchor="w").grid(row=2, column=0)
-
-        self.talk_title_string = tk.StringVar()
-        self.talk_title_dropdown = tk.OptionMenu(master, self.talk_title_string, *self.troll.terms["talk_titles"]).grid(row=0, column=1)
-        self.talk_title_entry = tk.Entry(master)
-        self.talk_title_entry.grid(row=1, column=1)
-        self.presenter_entry = tk.Entry(master)
-        self.presenter_entry.grid(row=2, column=1)
-
-        ttk.Separator(master, orient=tk.HORIZONTAL).grid(row=3, columnspan=2, sticky="ew")
-
-        # Slide minimum and maximum entries
-        tk.Label(master, text="Minimum Slide Count", anchor="w").grid(row=4, column=0)
-        tk.Label(master, text="Maximum Slide Count", anchor="w").grid(row=5, column=0)
-
-        self.slide_count_min_entry = tk.Entry(master)
-        self.slide_count_min_entry.grid(row=4, column=1)
-        self.slide_count_min_entry.insert(0, str(self.troll.slide_min))
-        self.slide_count_max_entry = tk.Entry(master)
-        self.slide_count_max_entry.grid(row=5, column=1)
-        self.slide_count_max_entry.insert(0, str(self.troll.slide_max))
-
-        ttk.Separator(master, orient=tk.HORIZONTAL).grid(row=6, columnspan=2, sticky="ew")
-
-        # Add the options for scaling slide type
-        tk.Label(master, text="Slide Type Weights", anchor="w").grid(row=7, column=0)
-
-        self.weights = {}
-
-        r = 8
-        for key in self.troll.slide_weights.weights.keys():
-            tk.Label(master, text=key, anchor="w").grid(row=r, column=0)
-            s = tk.Scale(master, orient=tk.HORIZONTAL, length=150)
-            s.grid(row=r, column=1)
-            s.set(self.troll.slide_weights.weights[key])
-            self.weights[key] = s
-            r += 1
-
-        ttk.Separator(master, orient=tk.HORIZONTAL).grid(row=r, columnspan=2, sticky="ew")
-        r += 1
-
-        self.show_gif_button = tk.Button(master, text='Show GIF Search Terms', command=self.show_gif_terms)
-        self.show_gif_button.grid(row=r, columnspan=2)
-        self.add_gif_entry = tk.Entry(master)
-        self.add_gif_entry.grid(row=r+1, columnspan=2)
-        self.add_gif_button = tk.Button(master, text='Add GIF Term', command=self.add_gif_term)
-        self.add_gif_button.grid(row=r+2, column=0)
-        self.delete_gif_button = tk.Button(master, text='Delete GIF Term', command=self.delete_gif_term)
-        self.delete_gif_button.grid(row=r+2, column=1)
-        r += 3
-
-        ttk.Separator(master, orient=tk.HORIZONTAL).grid(row=r, columnspan=2, sticky="ew")
-        r += 1
-
-        self.show_image_button = tk.Button(master, text='Show Image Search Terms', command=self.show_image_terms)
-        self.show_image_button.grid(row=r, columnspan=2)
-        self.add_image_entry = tk.Entry(master)
-        self.add_image_entry.grid(row=r+1, columnspan=2)
-        self.add_image_button = tk.Button(master, text='Add Image Term', command=self.add_image_term)
-        self.add_image_button.grid(row=r+2, column=0)
-        self.delete_image_button = tk.Button(master, text='Delete Image Term', command=self.delete_image_term)
-        self.delete_image_button.grid(row=r+2, column=1)
-        r += 3
-
-        ttk.Separator(master, orient=tk.HORIZONTAL).grid(row=r, columnspan=2, sticky="ew")
-        r += 1
-
-        self.farm_gif_button = tk.Button(master, text='Farm GIFs', command=self.farm_gifs)
-        self.farm_gif_button.grid(row=r, column=0)
-
-        self.farm_image_button = tk.Button(master, text='Farm Images', command=self.farm_images)
-        self.farm_image_button.grid(row=r, column=1)
-        r += 1
-
-        self.farm_new_content_button = tk.Button(master, text='Farm New Content', command=self.farm_new_content)
-        self.farm_new_content_button.grid(row=r, column=0)
-
-        self.farm_all_content_button = tk.Button(master, text='Farm All Content', command=self.farm_all_content)
-        self.farm_all_content_button.grid(row=r, column=1)
-        r += 1
-
-        ttk.Separator(master, orient=tk.HORIZONTAL).grid(row=r, columnspan=2, sticky="ew")
-        r += 1
-
-        self.go_button = tk.Button(master, text='Trollerate!', command=self.generate_troll)
-        self.go_button.grid(row=r, column=0, columnspan=2)
-        r += 1
-
-        # Create the output window
-        self.trollette_output = tk.Text(master, bd=4, state=tk.DISABLED, width=80, height=40)
-        self.trollette_output.config(font=("courier new", 14), background="black", foreground="green")
-        self.trollette_output.grid(row=0, rowspan=r, column=2)
-
-        self.trollette_output_scroll = tk.Scrollbar(master, command=self.trollette_output.yview)
-        self.trollette_output_scroll.grid(row=0, rowspan=r, column=3, sticky='nsew')
-        self.trollette_output['yscrollcommand'] = self.trollette_output_scroll.set
-
-        self.troll.console = self.trollette_output
-
-    def show_gif_terms(self):
-        self.troll.log("GIF Search Terms:\n%s" % json.dumps(self.troll.terms["giphy_searches"], indent=4))
-
-    def add_gif_term(self):
-        self.troll.log(self.troll.add_term("giphy_searches", self.add_gif_entry.get()))
-
-    def delete_gif_term(self):
-        self.troll.log(self.troll.delete_term("giphy_searches", self.add_gif_entry.get()))
-
-    def show_image_terms(self):
-        self.troll.log("Image Search Terms:\n%s" % json.dumps(self.troll.terms["image_searches"], indent=4))
-
-    def add_image_term(self):
-        self.troll.log(self.troll.add_term("image_searches", self.add_image_entry.get()))
-
-    def delete_image_term(self):
-        self.troll.log(self.troll.delete_term("image_searches", self.add_image_entry.get()))
-
-    def farm_gifs(self):
-        self.troll.farm_gifs()
-
-    def farm_images(self):
-        self.troll.farm_images()
-
-    def farm_new_content(self):
-        self.troll.farm_content(all_content=False)
-
-    def farm_all_content(self):
-        self.troll.farm_content(all_content=True)
-
-    def generate_troll(self):
-        if (self.talk_title_entry.get() == "") and (self.talk_title_string.get() == ""):
-            self.troll.log("You must choose a talk title or enter one before generating a Powerpoint!")
-            return
-
-        if not (self.talk_title_entry.get() == ""):
-            self.troll.title = self.talk_title_entry.get()
-        else:
-            self.troll.title = self.talk_title_string.get()
-        self.troll.presenter = self.presenter_entry.get()
-
-        try:
-            self.troll.slide_min = int(self.slide_count_min_entry.get())
-            self.troll.slide_max = int(self.slide_count_max_entry.get())
-        except:
-            self.troll.log("You must use integers for slide min and max!")
-            return
-
-        for key in self.weights.keys():
-            self.troll.slide_weights.set_weight(key, int(self.weights[key].get()))
-
-        self.troll.generate_slide_deck()
-
-    def run(self):
-        ''' Run the app '''
-        self.mainloop()
-
-
-class TrolletteGUI(tk.Frame):
-    ''' An example application for TkInter.  Instantiate
-        and call the run method to run. '''
-    def __init__(self, master):
-        # Initialize window using the parent's constructor
-        tk.Frame.__init__(self, master, width=1000, height=800, background="black")
-
-        self.master.title("Trollette")
-        self.master.configure(background="black")
-
-        self.pack_propagate(0)
-
-        self.troll = Trollette()
-
-        self.style = ttk.Style()
-        self.create_styles()
-
-        ### CREATE ALL THE PANES
-
-        # Main Window Pane
-
-        self.pane_main = ttk.PanedWindow(orient=tk.VERTICAL)
-        self.pane_main.pack(fill=tk.BOTH, expand=1)
-
-        # Options Pane
-        self.pane_top = ttk.PanedWindow(self.pane_main, orient=tk.HORIZONTAL)
-        self.pane_top.pack(fill=tk.BOTH, expand=1)
-        self.pane_main.add(self.pane_top)
-
-        # Title, Presenter, Trollerate Pane
-        self.pane_trollerate = ttk.PanedWindow(self.pane_top, orient=tk.VERTICAL)
-        self.pane_trollerate.pack(fill=tk.BOTH, expand=1)
-        self.pane_top.add(self.pane_trollerate)
-
-        # Output Pane
-        self.pane_bottom = ttk.PanedWindow(self.pane_main, orient=tk.HORIZONTAL)
-        self.pane_bottom.pack(fill=tk.BOTH, expand=1)
-        self.pane_main.add(self.pane_bottom)
-
-        self.trollette_output = tk.Text(self.pane_bottom, bd=4, state=tk.DISABLED, width=80, height=40)
-        self.trollette_output.config(font=("courier new", 16), background="black", foreground="green")
-        self.trollette_output.pack(fill=tk.BOTH, expand=1)
-        self.trollette_output.grid(row=0, column=0)
-        self.troll.console = self.trollette_output
-        self.pane_bottom.add(self.trollette_output)
-
-        self.trollette_output_scroll = ttk.Scrollbar(self.trollette_output, command=self.trollette_output.yview)
-        self.trollette_output['yscrollcommand'] = self.trollette_output_scroll.set
-        #self.pane_bottom.add(self.trollette_output_scroll)
-
-        # Create the Notebook for Options
-        self.notebook = ttk.Notebook(self.pane_top)
-        self.frame_slide_weights = ttk.Frame(self.notebook)   # first page, which would get widgets gridded into it
-        self.frame_terms = ttk.Frame(self.notebook)   # first page, which would get widgets gridded into it
-        self.frame_farming = ttk.Frame(self.notebook)   # first page, which would get widgets gridded into it
-        self.notebook.add(self.frame_slide_weights, text='Slide Weights')
-        self.notebook.add(self.frame_terms, text='Search Terms')
-        self.notebook.add(self.frame_farming, text='Data Farming')
-        self.pane_top.add(self.notebook)
-
-        # Add the Title, Presenter, Slide Counts, and Trollerate
-        ttk.Label(self.pane_trollerate, text="Talk Title", anchor="w").grid(row=0, column=0, columnspan=2)
-        ttk.Label(self.pane_trollerate, text="Presenter", anchor="w").grid(row=1, column=0, columnspan=2)
-
-        self.string_talk_title = tk.StringVar()
-        self.dropdown_talk_title = ttk.OptionMenu(self.pane_trollerate, self.string_talk_title, *self.troll.terms["talk_titles"])
-        self.dropdown_talk_title.grid(row=0, column=2, columnspan=2)
-        self.entry_presenter = ttk.Entry(self.pane_trollerate)
-        self.entry_presenter.grid(row=1, column=2, columnspan=2)
-
-        ttk.Label(self.pane_trollerate, text="Slide Min", anchor="w").grid(row=2, column=0)
-        ttk.Label(self.pane_trollerate, text="Slide Max", anchor="w").grid(row=2, column=2)
-        self.slide_count_min_entry = ttk.Entry(self.pane_trollerate, width=5)
-        self.slide_count_min_entry.grid(row=2, column=1)
-        self.slide_count_min_entry.insert(0, str(self.troll.slide_min))
-        self.slide_count_max_entry = ttk.Entry(self.pane_trollerate, width=5)
-        self.slide_count_max_entry.grid(row=2, column=3)
-        self.slide_count_max_entry.insert(0, str(self.troll.slide_max))
-
-        self.image_trollerate = tk.PhotoImage(file=os.path.join("Resources", "trollerate.gif"), width=300, height=280)
-        self.go_button = ttk.Button(self.pane_trollerate, command=self.generate_troll, image=self.image_trollerate, style="Troll.TButton")
-
-        self.go_button.grid(row=3, column=0, columnspan=4)
-
-        # Add the Slide options
-        self.weights = {}
-
-        r = 0
-        for key in self.troll.slide_weights.weights.keys():
-            ttk.Label(self.frame_slide_weights, text=key, anchor="w").grid(row=r, column=0)
-            s = ttk.Scale(self.frame_slide_weights, from_=0, to=100, orient=tk.HORIZONTAL, length=250)
-            s.grid(row=r, column=1)
-            s.set(self.troll.slide_weights.weights[key])
-            self.weights[key] = s
-            r += 1
-
-        # Add the Terms Options
-
-        self.show_title_button = ttk.Button(self.frame_terms, text='Show Talk Titles', command=self.show_titles)
-        self.show_title_button.grid(row=0, column=0)
-        self.add_title_entry = ttk.Entry(self.frame_terms)
-        self.add_title_entry.grid(row=1, column=0)
-        self.add_title_button = ttk.Button(self.frame_terms, text='Add Title', command=self.add_title)
-        self.add_title_button.grid(row=2, column=0)
-        self.delete_title_button = ttk.Button(self.frame_terms, text='Delete Title', command=self.delete_title)
-        self.delete_title_button.grid(row=3, column=0)
-
-        ttk.Separator(self.frame_terms, orient=tk.VERTICAL).grid(row=0, column=1, rowspan=4, sticky="ns")
-
-        self.show_image_button = ttk.Button(self.frame_terms, text='Show Image Search Terms', command=self.show_image_terms)
-        self.show_image_button.grid(row=0, column=2)
-        self.add_image_entry = ttk.Entry(self.frame_terms)
-        self.add_image_entry.grid(row=1, column=2)
-        self.add_image_button = ttk.Button(self.frame_terms, text='Add Image Term', command=self.add_image_term)
-        self.add_image_button.grid(row=2, column=2)
-        self.delete_image_button = ttk.Button(self.frame_terms, text='Delete Image Term', command=self.delete_image_term)
-        self.delete_image_button.grid(row=3, column=2)
-
-        ttk.Separator(self.frame_terms, orient=tk.VERTICAL).grid(row=0, column=3, rowspan=4, sticky="ns")
-
-        self.show_gif_button = ttk.Button(self.frame_terms, text='Show GIF Search Terms', command=self.show_gif_terms)
-        self.show_gif_button.grid(row=0, column=4)
-        self.add_gif_entry = ttk.Entry(self.frame_terms)
-        self.add_gif_entry.grid(row=1, column=4)
-        self.add_gif_button = ttk.Button(self.frame_terms, text='Add GIF Term', command=self.add_gif_term)
-        self.add_gif_button.grid(row=2, column=4)
-        self.delete_gif_button = ttk.Button(self.frame_terms, text='Delete GIF Term', command=self.delete_gif_term)
-        self.delete_gif_button.grid(row=3, column=4)
-
-        # Add the farming buttons
-        self.farm_gif_button = ttk.Button(self.frame_farming, text='Farm GIFs', command=self.farm_gifs)
-        self.farm_gif_button.grid(row=0, column=0)
-
-        self.farm_image_button = ttk.Button(self.frame_farming, text='Farm Images', command=self.farm_images)
-        self.farm_image_button.grid(row=1, column=0)
-
-        self.farm_new_content_button = ttk.Button(self.frame_farming, text='Farm New Content', command=self.farm_new_content)
-        self.farm_new_content_button.grid(row=2, column=0)
-
-        self.farm_all_content_button = ttk.Button(self.frame_farming, text='Farm All Content', command=self.farm_all_content)
-        self.farm_all_content_button.grid(row=3, column=0)
-
-
-    def create_styles(self):
-        self.style.configure("Troll.TButton", bd=0)
-        self.style.configure("TPanedWindow", font="courier 20", background="black")
-        self.style.configure("TText", font="courier 20", background="black")
-        self.style.configure("TScale", font="courier 20", background="black")
-        self.style.configure("TEntry", font="courier 20")
-        self.style.configure("TLabel", font="courier 20", background="black")
-        self.style.configure("TOptionMenu", font="courier 20", background="black")
-        self.style.configure("TNotebook", font="courier 20", background="black")
-        self.style.configure("TSeparator", padding=20)
-
-
-    def show_gif_terms(self):
-        self.troll.log("GIF Search Terms:\n%s" % json.dumps(self.troll.terms["giphy_searches"], indent=4))
-
-    def add_gif_term(self):
-        self.troll.log(self.troll.add_term("giphy_searches", self.add_gif_entry.get()))
-
-    def delete_gif_term(self):
-        self.troll.log(self.troll.delete_term("giphy_searches", self.add_gif_entry.get()))
-
-    def show_titles(self):
-        self.troll.log("GIF Search Terms:\n%s" % json.dumps(self.troll.terms["talk_titles"], indent=4))
-
-    def add_title(self):
-        self.troll.log(self.troll.add_term("talk_titles", self.add_title_entry.get()))
-
-    def delete_title(self):
-        self.troll.log(self.troll.delete_term("talk_titles", self.add_title_entry.get()))
-
-    def show_image_terms(self):
-        self.troll.log("Image Search Terms:\n%s" % json.dumps(self.troll.terms["image_searches"], indent=4))
-
-    def add_image_term(self):
-        self.troll.log(self.troll.add_term("image_searches", self.add_image_entry.get()))
-
-    def delete_image_term(self):
-        self.troll.log(self.troll.delete_term("image_searches", self.add_image_entry.get()))
-
-    def farm_gifs(self):
-        self.troll.farm_gifs()
-
-    def farm_images(self):
-        self.troll.farm_images()
-
-    def farm_new_content(self):
-        self.troll.farm_content(all_content=False)
-
-    def farm_all_content(self):
-        self.troll.farm_content(all_content=True)
-
-    def generate_troll(self):
-        if self.string_talk_title.get() == "":
-            self.troll.log("You must choose a talk title or enter one before generating a Powerpoint!")
-            return
-
-        self.troll.title = self.string_talk_title.get()
-        self.troll.presenter = self.entry_presenter.get()
-
-        try:
-            self.troll.slide_min = int(self.slide_count_min_entry.get())
-            self.troll.slide_max = int(self.slide_count_max_entry.get())
-        except:
-            self.troll.log("You must use integers for slide min and max!")
-            return
-
-        for key in self.weights.keys():
-            self.troll.slide_weights.set_weight(key, int(self.weights[key].get()))
-
-        self.troll.generate_slide_deck()
-
-    def run(self):
-        ''' Run the app '''
-        self.mainloop()
 
 
 def main():
