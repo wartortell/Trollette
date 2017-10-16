@@ -1,0 +1,926 @@
+[
+  {
+    "quote": "Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better take things as they come along with patience and equanimity.", 
+    "name": "Carl Jung"
+  }, 
+  {
+    "quote": "Never cut a tree down in the wintertime. Never make a negative decision in the low time. Never make your most important decisions when you are in your worst moods. Wait. Be patient. The storm will pass. The spring will come.", 
+    "name": "Robert H. Schuller"
+  }, 
+  {
+    "quote": "Patience, persistence and perspiration make an unbeatable combination for success.", 
+    "name": "Napoleon Hill"
+  }, 
+  {
+    "quote": "We could never learn to be brave and patient, if there were only joy in the world.", 
+    "name": "Helen Keller"
+  }, 
+  {
+    "quote": "How poor are they that have not patience! What wound did ever heal but by degrees?", 
+    "name": "William Shakespeare"
+  }, 
+  {
+    "quote": "Our real blessings often appear to us in the shape of pains, losses and disappointments but let us have patience and we soon shall see them in their proper figures.", 
+    "name": "Joseph Addison"
+  }, 
+  {
+    "quote": "Patience is bitter, but its fruit is sweet.", 
+    "name": "Jean-Jacques Rousseau"
+  }, 
+  {
+    "quote": "For anything worth having one must pay the price and the price is always work, patience, love, self-sacrifice - no paper currency, no promises to pay, but the gold of real service.", 
+    "name": "John Burroughs"
+  }, 
+  {
+    "quote": "Abused patience turns to fury.", 
+    "name": "Thomas Fuller"
+  }, 
+  {
+    "quote": "How many a man has thrown up his hands at a time when a little more effort, a little more patience would have achieved success.", 
+    "name": "Elbert Hubbard"
+  }, 
+  {
+    "quote": "Be patient and understanding. Life is too short to be vengeful or malicious.", 
+    "name": "Phillips Brooks"
+  }, 
+  {
+    "quote": "Have patience with all things, But, first of all with yourself.", 
+    "name": "Saint Francis de Sales"
+  }, 
+  {
+    "quote": "A man who is a master of patience is master of everything else.", 
+    "name": "George Savile"
+  }, 
+  {
+    "quote": "The test of good manners is to be patient with the bad ones.", 
+    "name": "Solomon Ibn Gabirol"
+  }, 
+  {
+    "quote": "I am patient with stupidity but not with those who are proud of it.", 
+    "name": "Edith Sitwell"
+  }, 
+  {
+    "quote": "It is easier to find men who will volunteer to die, than to find those who are willing to endure pain with patience.", 
+    "name": "Julius Caesar"
+  }, 
+  {
+    "quote": "Have patience. All things are difficult before they become easy.", 
+    "name": "Saadi"
+  }, 
+  {
+    "quote": "Our patience will achieve more than our force.", 
+    "name": "Edmund Burke"
+  }, 
+  {
+    "quote": "Genius is eternal patience.", 
+    "name": "Michelangelo"
+  }, 
+  {
+    "quote": "Good character is not formed in a week or a month. It is created little by little, day by day. Protracted and patient effort is needed to develop good character.", 
+    "name": "Heraclitus"
+  }, 
+  {
+    "quote": "I'm extraordinarily patient provided I get my own way in the end.", 
+    "name": "Margaret Thatcher"
+  }, 
+  {
+    "quote": "Endurance is patience concentrated.", 
+    "name": "Thomas Carlyle"
+  }, 
+  {
+    "quote": "Patience is necessary, and one cannot reap immediately where one has sown.", 
+    "name": "Soren Kierkegaard"
+  }, 
+  {
+    "quote": "The key to everything is patience. You get the chicken by hatching the egg, not by smashing it.", 
+    "name": "Arnold H. Glasow"
+  }, 
+  {
+    "quote": "Patience, n. A minor form of dispair, disguised as a virtue.", 
+    "name": "Ambrose Bierce"
+  }, 
+  {
+    "quote": "I am not a perfect servant. I am a public servant doing my best against the odds. As I develop and serve, be patient. God is not finished with me yet.", 
+    "name": "Jesse Jackson"
+  }, 
+  {
+    "quote": "Endurance is nobler than strength, and patience than beauty.", 
+    "name": "John Ruskin"
+  }, 
+  {
+    "quote": "Patience has its limits. Take it too far, and it's cowardice.", 
+    "name": "George Jackson"
+  }, 
+  {
+    "quote": "Humility is attentive patience.", 
+    "name": "Simone Weil"
+  }, 
+  {
+    "quote": "Who ever is out of patience is out of possession of their soul.", 
+    "name": "Francis Bacon"
+  }, 
+  {
+    "quote": "Heaven grant us patience with a man in love.", 
+    "name": "Rudyard Kipling"
+  }, 
+  {
+    "quote": "As for goals, I don't set myself those anymore. I'm not one of these 'I must have achieved this and that by next year' kind of writers. I take things as they come and find that patience and persistence tend to win out in the end.", 
+    "name": "Paul Kane"
+  }, 
+  {
+    "quote": "All commend patience, but none can endure to suffer.", 
+    "name": "Thomas Fuller"
+  }, 
+  {
+    "quote": "Patience and Diligence, like faith, remove mountains.", 
+    "name": "William Penn"
+  }, 
+  {
+    "quote": "Patience is the art of hoping.", 
+    "name": "Luc de Clapiers"
+  }, 
+  {
+    "quote": "There is something good in all seeming failures. You are not to see that now. Time will reveal it. Be patient.", 
+    "name": "Sivananda"
+  }, 
+  {
+    "quote": "The practice of patience toward one another, the overlooking of one another's defects, and the bearing of one another's burdens is the most elementary condition of all human and social activity in the family, in the professions, and in society.", 
+    "name": "Lawrence G. Lovasik"
+  }, 
+  {
+    "quote": "Lack of pep is often mistaken for patience.", 
+    "name": "Kin Hubbard"
+  }, 
+  {
+    "quote": "Patience is the support of weakness impatience the ruin of strength.", 
+    "name": "Charles Caleb Colton"
+  }, 
+  {
+    "quote": "Patience is the best remedy for every trouble.", 
+    "name": "Plautus"
+  }, 
+  {
+    "quote": "If I have done the public any service, it is due to my patient thought.", 
+    "name": "Isaac Newton"
+  }, 
+  {
+    "quote": "All men commend patience, although few are willing to practice it.", 
+    "name": "Thomas a Kempis"
+  }, 
+  {
+    "quote": "If you would know strength and patience, welcome the company of trees.", 
+    "name": "Hal Borland"
+  }, 
+  {
+    "quote": "Fortune knocks but once, but misfortune has much more patience.", 
+    "name": "Laurence J. Peter"
+  }, 
+  {
+    "quote": "Bear patiently with a rival.", 
+    "name": "Ovid"
+  }, 
+  {
+    "quote": "Beware the fury of a patient man.", 
+    "name": "John Dryden"
+  }, 
+  {
+    "quote": "Let him that hath no power of patience retire within himself, though even there he will have to put up with himself.", 
+    "name": "Baltasar Gracian"
+  }, 
+  {
+    "quote": "Patience is the most necessary quality for business, many a man would rather you heard his story than grant his request.", 
+    "name": "Lord Chesterfield"
+  }, 
+  {
+    "quote": "God gives me the children's ministry heart and patience. This is what He wants. It's awesome. I don't know where He's gonna take it - but God is building this thing.", 
+    "name": "Willie Aames"
+  }, 
+  {
+    "quote": "Hope is patience with the lamp lit.", 
+    "name": "Tertullian"
+  }, 
+  {
+    "quote": "There is no road too long to the man who advances deliberately and without undue haste there are no honors too distant to the man who prepares himself for them with patience.", 
+    "name": "Jean de la Bruyere"
+  }, 
+  {
+    "quote": "A healthy male adult bore consumes each year one and a half times his own weight in other people's patience.", 
+    "name": "John Updike"
+  }, 
+  {
+    "quote": "He who rides the sea of the Nile must have sails woven of patience.", 
+    "name": "William Golding"
+  }, 
+  {
+    "quote": "Patience, that blending of moral courage with physical timidity.", 
+    "name": "Thomas Hardy"
+  }, 
+  {
+    "quote": "Good ideas are not adopted automatically. They must be driven into practice with courageous patience.", 
+    "name": "Hyman Rickover"
+  }, 
+  {
+    "quote": "Everyone ought to bear patiently the results of his own conduct.", 
+    "name": "Phaedrus"
+  }, 
+  {
+    "quote": "You must first have a lot of patience to learn to have patience.", 
+    "name": "Stanislaw Lec"
+  }, 
+  {
+    "quote": "Never a tear bedims the eye that time and patience will not dry.", 
+    "name": "Bret Harte"
+  }, 
+  {
+    "quote": "Patience, the beggar's virtue, shall find no harbor here.", 
+    "name": "Philip Massinger"
+  }, 
+  {
+    "quote": "A wise man is superior to any insults which can be put upon him, and the best reply to unseemly behavior is patience and moderation.", 
+    "name": "Moliere"
+  }, 
+  {
+    "quote": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.", 
+    "name": "Harriet Tubman"
+  }, 
+  {
+    "quote": "The keys to patience are acceptance and faith. Accept things as they are, and look realistically at the world around you. Have faith in yourself and in the direction you have chosen.", 
+    "name": "Ralph Marston"
+  }, 
+  {
+    "quote": "Adopt the pace of nature: her secret is patience.", 
+    "name": "Ralph Waldo Emerson"
+  }, 
+  {
+    "quote": "If patience is worth anything, it must endure to the end of time. And a living faith will last in the midst of the blackest storm.", 
+    "name": "Mahatma Gandhi"
+  }, 
+  {
+    "quote": "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.", 
+    "name": "Lao Tzu"
+  }, 
+  {
+    "quote": "Patience and time do more than strength or passion.", 
+    "name": "Jean de La Fontaine"
+  }, 
+  {
+    "quote": "The marvel of all history is the patience with which men and women submit to burdens unnecessarily laid upon them by their governments.", 
+    "name": "George Washington"
+  }, 
+  {
+    "quote": "He that can have patience can have what he will.", 
+    "name": "Benjamin Franklin"
+  }, 
+  {
+    "quote": "No, I will be the pattern of all patience I will say nothing.", 
+    "name": "William Shakespeare"
+  }, 
+  {
+    "quote": "Have courage for the great sorrows of life and patience for the small ones and when you have laboriously accomplished your daily task, go to sleep in peace.", 
+    "name": "Victor Hugo"
+  }, 
+  {
+    "quote": "Beware of him that is slow to anger for when it is long coming, it is the stronger when it comes, and the longer kept. Abused patience turns to fury.", 
+    "name": "Francis Quarles"
+  }, 
+  {
+    "quote": "Patience is the companion of wisdom.", 
+    "name": "Saint Augustine"
+  }, 
+  {
+    "quote": "It is strange that the years teach us patience that the shorter our time, the greater our capacity for waiting.", 
+    "name": "Elizabeth Taylor"
+  }, 
+  {
+    "quote": "The two most powerful warriors are patience and time.", 
+    "name": "Leo Tolstoy"
+  }, 
+  {
+    "quote": "I learned patience, perseverance, and dedication. Now I really know myself, and I know my voice. It's a voice of pain and victory.", 
+    "name": "Anthony Hamilton"
+  }, 
+  {
+    "quote": "I do not have much patience with a thing of beauty that must be explained to be understood. If it does need additional interpretation by someone other than the creator, then I question whether it has fulfilled its purpose.", 
+    "name": "Charlie Chaplin"
+  }, 
+  {
+    "quote": "Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish.", 
+    "name": "John Quincy Adams"
+  }, 
+  {
+    "quote": "Alcohol gives you infinite patience for stupidity.", 
+    "name": "Sammy Davis, Jr."
+  }, 
+  {
+    "quote": "And I love that even in the toughest moments, when we're all sweating it - when we're worried that the bill won't pass, and it seems like all is lost - Barack never lets himself get distracted by the chatter and the noise. Just like his grandmother, he just keeps getting up and moving forward... with patience and wisdom, and courage and grace.", 
+    "name": "Michelle Obama"
+  }, 
+  {
+    "quote": "Faith is not simply a patience that passively suffers until the storm is past. Rather, it is a spirit that bears things - with resignations, yes, but above all, with blazing, serene hope.", 
+    "name": "Corazon Aquino"
+  }, 
+  {
+    "quote": "Meekness: Uncommon patience in planning a revenge that is worth while.", 
+    "name": "Ambrose Bierce"
+  }, 
+  {
+    "quote": "The days of our lives, for all of us, are numbered. We know that. And yes, there are certainly times when we aren't able to muster as much strength and patience as we would like. It's called being human.", 
+    "name": "Elizabeth Edwards"
+  }, 
+  {
+    "quote": "I do not believe that sheer suffering teaches. If suffering alone taught, all the world would be wise, since everyone suffers. To suffering must be added mourning, understanding, patience, love, openness and the willingness to remain vulnerable.", 
+    "name": "Anne Morrow Lindbergh"
+  }, 
+  {
+    "quote": "When traveling with someone, take large does of patience and tolerance with your morning coffee.", 
+    "name": "Helen Hayes"
+  }, 
+  {
+    "quote": "Patience is the ability to idle your motor when you feel like stripping your gears.", 
+    "name": "Barbara Johnson"
+  }, 
+  {
+    "quote": "We have no patience with other people's vanity because it is offensive to our own.", 
+    "name": "Francois de La Rochefoucauld"
+  }, 
+  {
+    "quote": "There are three secrets to managing. The first secret is have patience. The second is be patient. And the third most important secret is patience.", 
+    "name": "Chuck Tanner"
+  }, 
+  {
+    "quote": "To bear with patience wrongs done to oneself is a mark of perfection, but to bear with patience wrongs done to someone else is a mark of imperfection and even of actual sin.", 
+    "name": "Thomas Aquinas"
+  }, 
+  {
+    "quote": "A garden is a grand teacher. It teaches patience and careful watchfulness it teaches industry and thrift above all it teaches entire trust.", 
+    "name": "Gertrude Jekyll"
+  }, 
+  {
+    "quote": "Endurance is the crowning quality, And patience all the passion of great hearts.", 
+    "name": "James Russell Lowell"
+  }, 
+  {
+    "quote": "It takes patience to appreciate domestic bliss volatile spirits prefer unhappiness.", 
+    "name": "George Santayana"
+  }, 
+  {
+    "quote": "Knowing trees, I understand the meaning of patience. Knowing grass, I can appreciate persistence.", 
+    "name": "Hal Borland"
+  }, 
+  {
+    "quote": "Everything that slows us down and forces patience, everything that sets us back into the slow circles of nature, is a help. Gardening is an instrument of grace.", 
+    "name": "May Sarton"
+  }, 
+  {
+    "quote": "Patience and tenacity are worth more than twice their weight of cleverness.", 
+    "name": "Thomas Huxley"
+  }, 
+  {
+    "quote": "I grow plants for many reasons: to please my eye or to please my soul, to challenge the elements or to challenge my patience, for novelty or for nostalgia, but mostly for the joy in seeing them grow.", 
+    "name": "David Hobson"
+  }, 
+  {
+    "quote": "The Scriptures contain many stories of people who waited years or even decades before the Lord's promises came to pass. What modern believers can learn from the patience of biblical saints like Abraham, Joseph, David, and Paul is that waiting upon the Lord has eternal rewards.", 
+    "name": "Charles Stanley"
+  }, 
+  {
+    "quote": "Clearly older women and especially older women who have led an active life or elder women who successfully maneuver through their own family life have so much to teach us about sharing, patience, and wisdom.", 
+    "name": "Alice Walker"
+  }, 
+  {
+    "quote": "I'd like to be more patient! I just want everything now. I've tried to meditate, but it's really hard for me to stay still. I'd like to try to force myself to do it, because everybody says how wonderful meditation is for you, but I can't shut my mind up. So patience and learning is the key.", 
+    "name": "Ellen DeGeneres"
+  }, 
+  {
+    "quote": "I have not the smarts or patience for political office.", 
+    "name": "Henry Rollins"
+  }, 
+  {
+    "quote": "Affliction is the wholesome soil of virtue, where patience, honor, sweet humility, and calm fortitude, take root and strongly flourish.", 
+    "name": "David Mallet"
+  }, 
+  {
+    "quote": "I think you can judge from somebody's actions a kind of a stability and sense of purpose perhaps created by strong religious roots. I mean, there's a certain patience, a certain discipline, I think, that religion helps you achieve.", 
+    "name": "George W. Bush"
+  }, 
+  {
+    "quote": "As anyone who has ever been around a cat for any length of time well knows, cats have enormous patience with the limitations of the human kind.", 
+    "name": "Cleveland Amory"
+  }, 
+  {
+    "quote": "Patience is the art of concealing your impatience.", 
+    "name": "Guy Kawasaki"
+  }, 
+  {
+    "quote": "Patience has its limits, take it too far and it's cowardice.", 
+    "name": "Holbrook Jackson"
+  }, 
+  {
+    "quote": "With love and patience, nothing is impossible.", 
+    "name": "Daisaku Ikeda"
+  }, 
+  {
+    "quote": "When I was 20, I thought I was 30 - but I was so far from it. When you're young, you want everything to happen now. As you mature, you can look back and see all the great things you achieved with time and patience.", 
+    "name": "Elisha Cuthbert"
+  }, 
+  {
+    "quote": "You can learn many things from children. How much patience you have, for instance.", 
+    "name": "Franklin P. Jones"
+  }, 
+  {
+    "quote": "Teach us, O Lord, the disciplines of patience, for to wait is often harder than to work.", 
+    "name": "Peter Marshall"
+  }, 
+  {
+    "quote": "I have declared that patience is never more than patient. I too have declared, that I who am not patient am patient.", 
+    "name": "Gertrude Stein"
+  }, 
+  {
+    "quote": "It is impossible to practice parliamentary politics without having patience, decency, politeness and courtesy.", 
+    "name": "Khaleda Zia"
+  }, 
+  {
+    "quote": "I have all the patience in the world about Sirens. For me it's not a Grateful Dead project, it's a Me project.", 
+    "name": "Jerry Garcia"
+  }, 
+  {
+    "quote": "The principle part of faith is patience.", 
+    "name": "George MacDonald"
+  }, 
+  {
+    "quote": "Hopelessness has surprised me with patience.", 
+    "name": "Margaret J. Wheatley"
+  }, 
+  {
+    "quote": "Find patience in the breath of life.", 
+    "name": "Ryunosuke Satoro"
+  }, 
+  {
+    "quote": "The greatest power is often simple patience.", 
+    "name": "E. Joseph Cossman"
+  }, 
+  {
+    "quote": "How can a society that exists on instant mashed potatoes, packaged cake mixes, frozen dinners, and instant cameras teach patience to its young?", 
+    "name": "Paul Sweeney"
+  }, 
+  {
+    "quote": "Gardeners are good at nurturing, and they have a great quality of patience, they're tender. They have to be persistent.", 
+    "name": "Ralph Fiennes"
+  }, 
+  {
+    "quote": "The first requirement of politics is not intellect or stamina but patience. Politics is a very long run game and the tortoise will usually beat the hare.", 
+    "name": "John Major"
+  }, 
+  {
+    "quote": "I think patience is a skill and I wish I had it.", 
+    "name": "David Duchovny"
+  }, 
+  {
+    "quote": "Patience can't be acquired overnight. It is just like building up a muscle. Every day you need to work on it.", 
+    "name": "Eknath Easwaran"
+  }, 
+  {
+    "quote": "There is no harm in patience, and no profit in lamentation. Death is easier to bear (than) that which precedes it, and more severe than that which comes after it. Remember the death of the Apostle of God, and your sorrow will be lessened.", 
+    "name": "Abu Bakr"
+  }, 
+  {
+    "quote": "There is no substitute for hard work, 23 or 24 hours a day. And there is no substitute for patience and acceptance.", 
+    "name": "Cesar Chavez"
+  }, 
+  {
+    "quote": "I can imagine few things more trying to the patience than the long wasted days of waiting.", 
+    "name": "Robert Falcon Scott"
+  }, 
+  {
+    "quote": "I'm terrible with patience.", 
+    "name": "Katherine Heigl"
+  }, 
+  {
+    "quote": "If I could have one prayer answered, I would pray for patience. I move so fast sometimes. I try to slow down.", 
+    "name": "Debra Winger"
+  }, 
+  {
+    "quote": "A final word: I am not knowledgeable about the internet. I do not have a computer. I guess that at 74 years of age, I don't have the patience to learn.", 
+    "name": "David Wilkerson"
+  }, 
+  {
+    "quote": "It's a war of attrition. If you have patience and a modicum of faith in yourself your chances are not too bad.", 
+    "name": "Julie Bowen"
+  }, 
+  {
+    "quote": "A show that no one thought had a chance has just finished its fifth year: Charmed. I think it's tougher for the younger networks, so I think they have a little more patience for the sake of the show. But who knows?", 
+    "name": "Aaron Spelling"
+  }, 
+  {
+    "quote": "I don't play pyrotechnic scales. I play about frustration, patience, anger. Music is an extension of my soul.", 
+    "name": "Dick Dale"
+  }, 
+  {
+    "quote": "Only those who have patience to do simple things perfectly ever acquire the skill to do difficult things easily.", 
+    "name": "James J. Corbett"
+  }, 
+  {
+    "quote": "There are very little things in this life I cannot afford and patience is one of them.", 
+    "name": "Larry Hagman"
+  }, 
+  {
+    "quote": "Luck is a component that a lot of people in the arts sometimes fail to recognise: that you can have talent, perseverance, patience, but without luck you will not have a successful career.", 
+    "name": "Bryan Cranston"
+  }, 
+  {
+    "quote": "A statesman wants courage and a statesman wants vision but believe me, after six months' experience, he wants first, second, third and all the time - patience.", 
+    "name": "Stanley Baldwin"
+  }, 
+  {
+    "quote": "My mum told me to have patience. It's about realising that when things aren't going the way you want them to, or you don't have inspiration, it will come.", 
+    "name": "Vanessa Paradis"
+  }, 
+  {
+    "quote": "It has taken a great deal of energy, which has not been so difficult to summon as the necessary patience to wait, simply wait much of the time - until my instincts assured me that I had assembled my materials in proper order for a final welding into their natural form.", 
+    "name": "Hart Crane"
+  }, 
+  {
+    "quote": "So when I do Chinese cooking, I mix everything together, then the kids have to eat their vegetables. They won't have the patience to pick them out.", 
+    "name": "Martin Yan"
+  }, 
+  {
+    "quote": "I believe there's too little patience and context to many of the investigations I read or see on television.", 
+    "name": "Bob Woodward"
+  }, 
+  {
+    "quote": "Artists know that diligence counts as much, if not more, as inspiration in art, as in politics, patience counts as much as revolution.", 
+    "name": "Tony Kushner"
+  }, 
+  {
+    "quote": "Temperamentally I'm not a natural producer, because I don't have the patience.", 
+    "name": "Damian Lewis"
+  }, 
+  {
+    "quote": "You have to respect your parents. They are giving you an at-bat. If you're an entrepreneur and go into the family business, you want to grow fast. Patience is important. But respect the other party... My dad and I pulled it off because we really respect each other.", 
+    "name": "Gary Vaynerchuk"
+  }, 
+  {
+    "quote": "Deliberately seek opportunities for kindness, sympathy, and patience.", 
+    "name": "Evelyn Underhill"
+  }, 
+  {
+    "quote": "Everyone is given one gift, a reason for being, and it's our obligation to do something with it. Obviously, it's a challenge - but if you're not taking the bull by the horns, I have no patience for you. You're just taking up space.", 
+    "name": "Melissa Rosenberg"
+  }, 
+  {
+    "quote": "We are telling the American people to have patience, courage, resolve and determination.", 
+    "name": "Muammar al-Gaddafi"
+  }, 
+  {
+    "quote": "I think I have more patience now than I did in the past.", 
+    "name": "T. Boone Pickens"
+  }, 
+  {
+    "quote": "Because I'm the author of my screenplays I know what I'm looking for. It's true that I can be stubborn in demanding that I get what I want, but it's also a question of working with patience and love.", 
+    "name": "Michael Haneke"
+  }, 
+  {
+    "quote": "Patience was not my strong point.", 
+    "name": "Lauren Bacall"
+  }, 
+  {
+    "quote": "Thank God my parents had an abundance of patience.", 
+    "name": "Lexa Doig"
+  }, 
+  {
+    "quote": "One problem with age is that patience begins to ebb.", 
+    "name": "Carl Hiaasen"
+  }, 
+  {
+    "quote": "My biggest weakness is patience, wanting to see things happen too quickly or get changes in place right away. Not having the patience to let things develop.", 
+    "name": "Paul Gleason"
+  }, 
+  {
+    "quote": "I haven't been given many things, but I've been given ample, limitless patience.", 
+    "name": "Lincoln Diaz-Balart"
+  }, 
+  {
+    "quote": "When you read about a car crash in which two or three youngsters are killed, do you pause to dwell on the amount of love and treasure and patience parents poured into bodies no longer suitable for open caskets?", 
+    "name": "Jim Bishop"
+  }, 
+  {
+    "quote": "Patience was not something that came naturally to me, but in cooking it is the quintessential skill.", 
+    "name": "Gail Simmons"
+  }, 
+  {
+    "quote": "Patience is the secret to good food.", 
+    "name": "Gail Simmons"
+  }, 
+  {
+    "quote": "You know, I lose patience really easily I'd rather shop in the grocery store than in the department store. I can pick an apple like nobody's business.", 
+    "name": "Gail Simmons"
+  }, 
+  {
+    "quote": "Republican patience with how unionism deals with the political institutions, and with key issues like equality and human rights, will be tested because, obviously, there will be a battle a day on these matters. So lets face up to all of this with our eyes wide open.", 
+    "name": "Gerry Adams"
+  }, 
+  {
+    "quote": "You have to find the peace and patience within yourself to be a model and an example to others and not judge.", 
+    "name": "Judith Light"
+  }, 
+  {
+    "quote": "God's way of answering the Christian's prayer for more patience, experience, hope and love often is to put him into the furnace of affliction.", 
+    "name": "Richard Cecil"
+  }, 
+  {
+    "quote": "No, you're not allowed to be bossy when you're married. You have to learn compromise, and compassion and patience.", 
+    "name": "Star Jones"
+  }, 
+  {
+    "quote": "People ask me a lot about the values I got from playing for the Cubs for so many years. The value I got out of it was patience. A lot of people these days are not very patient.", 
+    "name": "Ernie Banks"
+  }, 
+  {
+    "quote": "I've worked so hard to eliminate the inner geek from my life. I suddenly realize I have no patience for those people who still have their geeks showing. Now I see why being 'normal' has been so important to me.", 
+    "name": "Kenny Loggins"
+  }, 
+  {
+    "quote": "Honestly, I didn't have the patience for biology or history in an academic sense, but I always liked the kind of big questions.", 
+    "name": "Andrew Bird"
+  }, 
+  {
+    "quote": "In this day and age, you need a lot of patience if you are in the movie business.", 
+    "name": "Brett Ratner"
+  }, 
+  {
+    "quote": "When I was in the first grade I was afraid of the teacher and had a miserable time in the reading circle, a difficulty that was overcome by the loving patience of my second grade teacher. Even though I could read, I refused to do so.", 
+    "name": "Beverly Cleary"
+  }, 
+  {
+    "quote": "Give your dog or cat respect, patience, understanding and love. And if you just change to one vegetarian day a week, that's a wonderful step that will save animal lives. It means you have chosen something kind instead of something cruel.", 
+    "name": "Ingrid Newkirk"
+  }, 
+  {
+    "quote": "In movies, there are some things the French do that Americans are increasingly incapable of doing. One is honoring the complexities of youth. It's a quiet, difficult undertaking, requiring subtlety in a filmmaker and perception and patience from us.", 
+    "name": "Wesley Morris"
+  }, 
+  {
+    "quote": "I have no patience at all.", 
+    "name": "Alan Sugar"
+  }, 
+  {
+    "quote": "Writing is good, thinking is better. Cleverness is good, patience is better.", 
+    "name": "Herman Hesse"
+  }, 
+  {
+    "quote": "The strong manly ones in life are those who understand the meaning of the word patience.", 
+    "name": "Tokugawa Ieyasu"
+  }, 
+  {
+    "quote": "And we ask the American people to play an important part of our layered defense. We ask for cooperation, patience and a commitment to vigilance in the face of a determined enemy.", 
+    "name": "Janet Napolitano"
+  }, 
+  {
+    "quote": "When I said a few weeks ago that our people would eat cooking oil and olives if necessary, I didn't mean that there really would be only oil and olives. What I meant was that our people have the necessary patience to endure the current difficult situation. Palestinians would rather do without certain food items than their national rights.", 
+    "name": "Ismail Haniyeh"
+  }, 
+  {
+    "quote": "I don't have a lot of patience for boring arthouse movies.", 
+    "name": "Zoe Kazan"
+  }, 
+  {
+    "quote": "We had great faith that with patience, understanding, and education, that my family and I could be helpful in changing their minds and attitudes around.", 
+    "name": "Ryan White"
+  }, 
+  {
+    "quote": "Secretary of War Stanton used to get out of patience with Lincoln because he was all the time pardoning men who ought to be shot.", 
+    "name": "Elihu Root"
+  }, 
+  {
+    "quote": "My advice to someone to follow in my footsteps is to have patience. I've been doing this for twelve years.", 
+    "name": "Christina Milian"
+  }, 
+  {
+    "quote": "Now it is evident that a little insight into the customs of every people is necessary to insure a kindly communication this, joined with patience and kindness, will seldom fail with the natives of the interior.", 
+    "name": "Charles Sturt"
+  }, 
+  {
+    "quote": "Sad Patience, too near neighbour to despair.", 
+    "name": "Matthew Arnold"
+  }, 
+  {
+    "quote": "Work hard. And have patience. Because no matter who you are, you're going to get hurt in your career and you have to be patient to get through the injuries.", 
+    "name": "Randy Johnson"
+  }, 
+  {
+    "quote": "Is the patience of the American people that long suffering? Is there no outrage left in the country?", 
+    "name": "Andrew Greeley"
+  }, 
+  {
+    "quote": "I've said my patience is not infinite.", 
+    "name": "Darrell Issa"
+  }, 
+  {
+    "quote": "True enough, nature has endowed me with a fair measure of patience and composure, yet I should be lying if I told you that, having seen the reporter off on his way to make his deadline, I fell peacefully asleep.", 
+    "name": "Leon Jouhaux"
+  }, 
+  {
+    "quote": "My impression is that most women public service workers have a long fuse. Precisely because they care so deeply about services, more than anyone, they still want to find a sensible and fair negotiated agreement. But their patience has run out.", 
+    "name": "Frances O'Grady"
+  }, 
+  {
+    "quote": "While it is true that Frank had a great sense of humor, he was also very serious about composing music. In reality there are only a handful of skilled players who can play his most complex pieces. It takes a lot of patience to learn and requires a fantastic memory.", 
+    "name": "Dweezil Zappa"
+  }, 
+  {
+    "quote": "I think God's really blessed me with patience. I'm good with a lot of things going on at once.", 
+    "name": "Niki Taylor"
+  }, 
+  {
+    "quote": "Patience is passion tamed.", 
+    "name": "Lyman Abbott"
+  }, 
+  {
+    "quote": "I'm not really easy to live with! There needs to be unlimited patience and unconditional love. Men I've known before loved my independent spirit and were proud of my success, to the point that they'd become jealous of the time I devote to my career.", 
+    "name": "Milla Jovovich"
+  }, 
+  {
+    "quote": "I have a huge respect for writers and realise that this is not an area that I find easy. I doubt that I would have the patience in front of a blank sheet of paper to become a writer.", 
+    "name": "Jenny Agutter"
+  }, 
+  {
+    "quote": "My relationship with the Philharmonia Orchestra brought me many times to London and I will always reflect positively on that early period of development with them - their patience, their warmth, their dedication.", 
+    "name": "Gustavo Dudamel"
+  }, 
+  {
+    "quote": "Everything is out there if you know how to find it, and have the patience. I don't and haven't, but that's my problem.", 
+    "name": "Tom Holt"
+  }, 
+  {
+    "quote": "Reading a novel in which all characters illustrate patience, hard work, chastity, and delayed gratification could be a pretty dull experience.", 
+    "name": "Thomas Perry"
+  }, 
+  {
+    "quote": "I pray they will carry on in spite of that dreadful monster prejudice, and with patience, courage, fortitude and perseverance achieve success for themselves.", 
+    "name": "Major Taylor"
+  }, 
+  {
+    "quote": "Americans have less and less patience for the intrusive and divisive moral scolds who thrived in the bubbles of the Clinton and Bush years.", 
+    "name": "Frank Rich"
+  }, 
+  {
+    "quote": "I've always been a person with patience, and I don't like to force things.", 
+    "name": "Harry Shum, Jr."
+  }, 
+  {
+    "quote": "It seems likely that many of the young who don't wait for others to call them artists, but simply announce that they are, don't have the patience to make art.", 
+    "name": "Pauline Kael"
+  }, 
+  {
+    "quote": "Tolerance, compromise, understanding, acceptance, patience - I want those all to be very sharp tools in my shed.", 
+    "name": "Cee Lo Green"
+  }, 
+  {
+    "quote": "Patience means restraining one's inclinations.", 
+    "name": "Tokugawa Ieyasu"
+  }, 
+  {
+    "quote": "The patience of the American public with dilatory diplomatic delays will be very limited.", 
+    "name": "Tom Lantos"
+  }, 
+  {
+    "quote": "I wish I was a shredder that could play everything, but I don't have the patience.", 
+    "name": "Dave Navarro"
+  }, 
+  {
+    "quote": "There's not a lot of room anymore for what I call 'made-up' drama. The drama comes from real places now - marriage takes work and focus, the kid stuff takes patience and commitment. And if you don't grow as people and as a couple, within all of that, then you've got some real drama.", 
+    "name": "Jeremy Sisto"
+  }, 
+  {
+    "quote": "Patience makes a women beautiful in middle age.", 
+    "name": "Elliot Paul"
+  }, 
+  {
+    "quote": "I think the Iraqi people have shown extraordinary patience and courage in the last few months. They have really put a political system on the way to success, to a real democracy here.", 
+    "name": "Paul Bremer"
+  }, 
+  {
+    "quote": "The very important thing you should have is patience.", 
+    "name": "Jack Ma"
+  }, 
+  {
+    "quote": "Speaking from my experience as a person involved for a long time in building the European Union, it is important to have patience and efforts to build a community of nations.", 
+    "name": "Giorgio Napolitano"
+  }, 
+  {
+    "quote": "My wife is the most awesome person in the universe. She's made this experience much less miserable for me, with her compassion, patience and understanding.", 
+    "name": "Wil Wheaton"
+  }, 
+  {
+    "quote": "Patience has never been my strong suit.", 
+    "name": "Michael Chiklis"
+  }, 
+  {
+    "quote": "Constant repetition of tongue-twisters was like lifting weights for me, but patience and persistence have paid off.", 
+    "name": "Nicholas Brendon"
+  }, 
+  {
+    "quote": "Your patience would fail you if I should continue to relate all the disrespectful speeches and treatment which your servants have been obliged to listen to and patiently to bear.", 
+    "name": "Peter Stuyvesant"
+  }, 
+  {
+    "quote": "To understand a difficult topic like Iraq takes patience and care. Unfortunately, you rarely hear a patient, careful or thoughtful discussion of intelligence these days.", 
+    "name": "George Tenet"
+  }, 
+  {
+    "quote": "I've learned the importance of loving what you do. I have also learned more patience due to the nature of the music business.", 
+    "name": "Randy Travis"
+  }, 
+  {
+    "quote": "I haven't got a lot of patience.", 
+    "name": "Jeffrey Katzenberg"
+  }, 
+  {
+    "quote": "It's amazing. My kids have grown me in ways I never knew possible. The patience I've received and the love I get from them is just amazing.", 
+    "name": "Candace Cameron Bure"
+  }, 
+  {
+    "quote": "Anyhow, a philosophical turn of thought now was not amiss, else one's patience would have given out almost at the harbour entrance. The term of her probation was eight days.", 
+    "name": "Joshua Slocum"
+  }, 
+  {
+    "quote": "Patience is sorrow's salve.", 
+    "name": "Charles Churchill"
+  }, 
+  {
+    "quote": "You know, writing is really difficult, and it takes a real patience and a skill. I don't know if I have that. I admire it in others, so much, and I envy it.", 
+    "name": "Adam Scott"
+  }, 
+  {
+    "quote": "Beauty, unlike the rest of the gifts handed out at birth, does not require dedication, patience and hard work to pay off. But it's also the only gift that does not keep on giving.", 
+    "name": "Paulina Porizkova"
+  }, 
+  {
+    "quote": "My three Ps: passion, patience, perseverance. You have to do this if you've got to be a filmmaker.", 
+    "name": "Robert Wise"
+  }, 
+  {
+    "quote": "Sometimes they are a matter of luck the photographer could not expect or hope for them. Sometimes they are a matter of patience, waiting for an effect to be repeated that he has seen and lost or for one that he anticipates.", 
+    "name": "Bill Brandt"
+  }, 
+  {
+    "quote": "I think there's not much patience for organized labour, period, public or private sector.", 
+    "name": "Kathleen Wynne"
+  }, 
+  {
+    "quote": "That's why I never became a director. I never had patience with people.", 
+    "name": "Ray Harryhausen"
+  }, 
+  {
+    "quote": "Patience is the best medicine.", 
+    "name": "John Florio"
+  }, 
+  {
+    "quote": "And so, at the age of thirty, I had successively disgraced myself with three fine institutions, each of which had made me free of its full and rich resources, had trained me with skill and patience, and had shown me nothing but forbearance and charity when I failed in trust.", 
+    "name": "Simon Raven"
+  }, 
+  {
+    "quote": "He preacheth patience that never knew pain.", 
+    "name": "H. G. Bohn"
+  }, 
+  {
+    "quote": "The only thing of weight that can be said against modern honor is that it is directly opposite to religion. The one bids you bear injuries with patience, the other tells you if you don't resent them, you are not fit to live.", 
+    "name": "Bernard de Mandeville"
+  }, 
+  {
+    "quote": "I will exercise patience and will provide all facts to the general public.", 
+    "name": "Yingluck Shinawatra"
+  }, 
+  {
+    "quote": "As I pass it, I feel as if I saw a dear old mother, sweet in her weakness, trembling at the approach of her dissolution, but not appealing to me against the inevitable, rather endeavouring to reassure me by her patience, and pointing to a hopeful future.", 
+    "name": "Thomas Edward Brown"
+  }, 
+  {
+    "quote": "This is the story of what a Woman's patience can endure, and what a Man's resolution can achieve.", 
+    "name": "Wilkie Collins"
+  }, 
+  {
+    "quote": "Soon I knew the craft of experimental physics was beyond me - it was the sublime quality of patience - patience in accumulating data, patience with recalcitrant equipment - which I sadly lacked.", 
+    "name": "Abdus Salam"
+  }, 
+  {
+    "quote": "As a young boy, I read 'Cheaper by the Dozen' and immediately became neurotic about my use of time. It taxed me severely, but only for the next 50 years. But I think it also allowed me to discipline myself to sit in the chair and be a writer, where one of the most needed qualities is patience.", 
+    "name": "Ridley Pearson"
+  }, 
+  {
+    "quote": "Difficult years lie ahead, patience is required.", 
+    "name": "Yiannis Stournaras"
+  }, 
+  {
+    "quote": "If you have confidence you have patience. Confidence, that is everything.", 
+    "name": "Ilie Nastase"
+  }, 
+  {
+    "quote": "So it's been a slow process and it's taken some patience. That's why patients are called patients I think - patience is required.", 
+    "name": "Bowie Kuhn"
+  }, 
+  {
+    "quote": "I've done an awful lot of stuff that's a monument to public patience.", 
+    "name": "Tyrone Power"
+  }
+]

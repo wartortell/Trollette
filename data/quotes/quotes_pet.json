@@ -1,0 +1,662 @@
+[
+  {
+    "quote": "No matter how much cats fight, there always seem to be plenty of kittens.", 
+    "name": "Abraham Lincoln"
+  }, 
+  {
+    "quote": "I am fond of pigs. Dogs look up to us. Cats look down on us. Pigs treat us as equals.", 
+    "name": "Winston Churchill"
+  }, 
+  {
+    "quote": "Women and cats will do as they please, and men and dogs should relax and get used to the idea.", 
+    "name": "Robert A. Heinlein"
+  }, 
+  {
+    "quote": "Time spent with cats is never wasted.", 
+    "name": "Sigmund Freud"
+  }, 
+  {
+    "quote": "A dog is the only thing on earth that loves you more than you love yourself.", 
+    "name": "Josh Billings"
+  }, 
+  {
+    "quote": "I wish I could write as mysterious as a cat.", 
+    "name": "Edgar Allan Poe"
+  }, 
+  {
+    "quote": "There are two means of refuge from the miseries of life: music and cats.", 
+    "name": "Albert Schweitzer"
+  }, 
+  {
+    "quote": "I looked up my family tree and found three dogs using it.", 
+    "name": "Rodney Dangerfield"
+  }, 
+  {
+    "quote": "Until one has loved an animal a part of one's soul remains unawakened.", 
+    "name": "Anatole France"
+  }, 
+  {
+    "quote": "Animals are such agreeable friends - they ask no questions they pass no criticisms.", 
+    "name": "George Eliot"
+  }, 
+  {
+    "quote": "Animals are reliable, many full of love, true in their affections, predictable in their actions, grateful and loyal. Difficult standards for people to live up to.", 
+    "name": "Alfred A. Montapert"
+  }, 
+  {
+    "quote": "I wonder if other dogs think poodles are members of a weird religious cult.", 
+    "name": "Rita Rudner"
+  }, 
+  {
+    "quote": "The better I get to know men, the more I find myself loving dogs.", 
+    "name": "Charles de Gaulle"
+  }, 
+  {
+    "quote": "The average dog is a nicer person than the average person.", 
+    "name": "Andy Rooney"
+  }, 
+  {
+    "quote": "Dogs are not our whole life, but they make our lives whole.", 
+    "name": "Roger Caras"
+  }, 
+  {
+    "quote": "If a dog will not come to you after having looked you in the face, you should go home and examine your conscience.", 
+    "name": "Woodrow Wilson"
+  }, 
+  {
+    "quote": "I poured spot remover on my dog. Now he's gone.", 
+    "name": "Steven Wright"
+  }, 
+  {
+    "quote": "The dog is the god of frolic.", 
+    "name": "Henry Ward Beecher"
+  }, 
+  {
+    "quote": "To his dog, every man is Napoleon hence the constant popularity of dogs.", 
+    "name": "Aldous Huxley"
+  }, 
+  {
+    "quote": "What a dog I got, his favorite bone is in my arm.", 
+    "name": "Rodney Dangerfield"
+  }, 
+  {
+    "quote": "Dachshunds are ideal dogs for small children, as they are already stretched and pulled to such a length that the child cannot do much harm one way or the other.", 
+    "name": "Robert Benchley"
+  }, 
+  {
+    "quote": "What counts is not necessarily the size of the dog in the fight - it's the size of the fight in the dog.", 
+    "name": "Dwight D. Eisenhower"
+  }, 
+  {
+    "quote": "Money can buy you a fine dog, but only love can make him wag his tail.", 
+    "name": "Kinky Friedman"
+  }, 
+  {
+    "quote": "Dogs are my favorite people.", 
+    "name": "Richard Dean Anderson"
+  }, 
+  {
+    "quote": "I have felt cats rubbing their faces against mine and touching my cheek with claws carefully sheathed. These things, to me, are expressions of love.", 
+    "name": "James Herriot"
+  }, 
+  {
+    "quote": "The smallest feline is a masterpiece.", 
+    "name": "Leonardo da Vinci"
+  }, 
+  {
+    "quote": "I love cats because I enjoy my home and little by little, they become its visible soul.", 
+    "name": "Jean Cocteau"
+  }, 
+  {
+    "quote": "A dog teaches a boy fidelity, perseverance, and to turn around three times before lying down.", 
+    "name": "Robert Benchley"
+  }, 
+  {
+    "quote": "Never wear anything that panics the cat.", 
+    "name": "P. J. O'Rourke"
+  }, 
+  {
+    "quote": "If you are a dog and your owner suggests that you wear a sweater suggest that he wear a tail.", 
+    "name": "Fran Lebowitz"
+  }, 
+  {
+    "quote": "I never married because there was no need. I have three pets at home which answer the same purpose as a husband. I have a dog which growls every morning, a parrot which swears all afternoon, and a cat that comes home late at night.", 
+    "name": "Marie Corelli"
+  }, 
+  {
+    "quote": "A happy arrangement: many people prefer cats to other people, and many cats prefer people to other cats.", 
+    "name": "Mason Cooley"
+  }, 
+  {
+    "quote": "Even cats grow lonely and anxious.", 
+    "name": "Mason Cooley"
+  }, 
+  {
+    "quote": "No one can feel as helpless as the owner of a sick goldfish.", 
+    "name": "Kin Hubbard"
+  }, 
+  {
+    "quote": "I believe cats to be spirits come to earth. A cat, I am sure, could walk on a cloud without coming through.", 
+    "name": "Jules Verne"
+  }, 
+  {
+    "quote": "Cats have it all - admiration, an endless sleep, and company only when they want it.", 
+    "name": "Rod McKuen"
+  }, 
+  {
+    "quote": "Cat: a pygmy lion who loves mice, hates dogs, and patronizes human beings.", 
+    "name": "Oliver Herford"
+  }, 
+  {
+    "quote": "The trouble with a kitten is that eventually it becomes a cat.", 
+    "name": "Ogden Nash"
+  }, 
+  {
+    "quote": "Cats are intended to teach us that not everything in nature has a function.", 
+    "name": "Garrison Keillor"
+  }, 
+  {
+    "quote": "Way down deep, we're all motivated by the same urges. Cats have the courage to live by them.", 
+    "name": "Jim Davis"
+  }, 
+  {
+    "quote": "Dogs are our link to paradise. They don't know evil or jealousy or discontent.", 
+    "name": "Milan Kundera"
+  }, 
+  {
+    "quote": "Don't accept your dog's admiration as conclusive evidence that you are wonderful.", 
+    "name": "Ann Landers"
+  }, 
+  {
+    "quote": "No one appreciates the very special genius of your conversation as the dog does.", 
+    "name": "Christopher Morley"
+  }, 
+  {
+    "quote": "I've got a new invention. It's a revolving bowl for tired goldfish.", 
+    "name": "Lefty Gomez"
+  }, 
+  {
+    "quote": "Kittens are wide-eyed, soft and sweet. With needles in their jaws and feet.", 
+    "name": "Pam Brown"
+  }, 
+  {
+    "quote": "Many who have spent a lifetime in it can tell us less of love than the child that lost a dog yesterday.", 
+    "name": "Thornton Wilder"
+  }, 
+  {
+    "quote": "Do not make the mistake of treating your dogs like humans or they will treat you like dogs.", 
+    "name": "Martha Scott"
+  }, 
+  {
+    "quote": "I've always been mad about cats.", 
+    "name": "Vivien Leigh"
+  }, 
+  {
+    "quote": "Cats are inquisitive, but hate to admit it.", 
+    "name": "Mason Cooley"
+  }, 
+  {
+    "quote": "As anyone who has ever been around a cat for any length of time well knows, cats have enormous patience with the limitations of the human kind.", 
+    "name": "Cleveland Amory"
+  }, 
+  {
+    "quote": "We've begun to long for the pitter-patter of little feet - so we bought a dog. Well, it's cheaper, and you get more feet.", 
+    "name": "Rita Rudner"
+  }, 
+  {
+    "quote": "Cats are rather delicate creatures and they are subject to a good many different ailments, but I have never heard of one who suffered from insomnia.", 
+    "name": "Joseph Wood Krutch"
+  }, 
+  {
+    "quote": "If a dog jumps into your lap, it is because he is fond of you but if a cat does the same thing, it is because your lap is warmer.", 
+    "name": "Alfred North Whitehead"
+  }, 
+  {
+    "quote": "Like all pure creatures, cats are practical.", 
+    "name": "William S. Burroughs"
+  }, 
+  {
+    "quote": "If cats were double the size they are now, they'd probably be illegal.", 
+    "name": "Doug Coupland"
+  }, 
+  {
+    "quote": "Dogs laugh, but they laugh with their tails.", 
+    "name": "Max Eastman"
+  }, 
+  {
+    "quote": "I kind of imagine myself at eighty, a cat lady.", 
+    "name": "Juliette Lewis"
+  }, 
+  {
+    "quote": "A kitten is in the animal world what a rosebud is in the garden.", 
+    "name": "Robert Southey"
+  }, 
+  {
+    "quote": "The trees in Siberia are miles apart, that is why the dogs are so fast.", 
+    "name": "Bob Hope"
+  }, 
+  {
+    "quote": "I live alone, with cats, books, pictures, fresh vegetables to cook, the garden, the hens to feed.", 
+    "name": "Jeanette Winterson"
+  }, 
+  {
+    "quote": "People who keep dogs are cowards who haven't got the guts to bite people themselves.", 
+    "name": "August Strindberg"
+  }, 
+  {
+    "quote": "There is no psychiatrist in the world like a puppy licking your face.", 
+    "name": "Bernard Williams"
+  }, 
+  {
+    "quote": "Cats seem to go on the principle that it never does any harm to ask for what you want.", 
+    "name": "Joseph Wood Krutch"
+  }, 
+  {
+    "quote": "There's a saying. If you want someone to love you forever, buy a dog, feed it and keep it around.", 
+    "name": "Dick Dale"
+  }, 
+  {
+    "quote": "I had been told that the training procedure with cats was difficult. It's not. Mine had me trained in two days.", 
+    "name": "Bill Dana"
+  }, 
+  {
+    "quote": "Scratch a dog and you'll find a permanent job.", 
+    "name": "Franklin P. Jones"
+  }, 
+  {
+    "quote": "It is impossible for a lover of cats to banish these alert, gentle, and discriminating friends, who give us just enough of their regard and complaisance to make us hunger for more.", 
+    "name": "Agnes Repplier"
+  }, 
+  {
+    "quote": "Cats don't like change without their consent.", 
+    "name": "Roger Caras"
+  }, 
+  {
+    "quote": "I was a dog in a past life. Really. I'll be walking down the street and dogs will do a sort of double take. Like, Hey, I know him.", 
+    "name": "William H. Macy"
+  }, 
+  {
+    "quote": "There are all sorts of cute puppy dogs, but it doesn't stop people from going out and buying Dobermans.", 
+    "name": "Angus Young"
+  }, 
+  {
+    "quote": "We have three cats. It's like having children, but there is no tuition involved.", 
+    "name": "Ron Reagan"
+  }, 
+  {
+    "quote": "There's just me and my wife and a dog and we feed him Healthy Choice also.", 
+    "name": "Mike Ditka"
+  }, 
+  {
+    "quote": "Cats are connoisseurs of comfort.", 
+    "name": "James Herriot"
+  }, 
+  {
+    "quote": "A hungry dog hunts best. A hungrier dog hunts even better.", 
+    "name": "Norman Ralph Augustine"
+  }, 
+  {
+    "quote": "Just watching my cats can make me happy.", 
+    "name": "Paula Cole"
+  }, 
+  {
+    "quote": "A kitten is chiefly remarkable for rushing about like mad at nothing whatever, and generally stopping before it gets there.", 
+    "name": "Agnes Repplier"
+  }, 
+  {
+    "quote": "The world spends $40 billion a year on pet food.", 
+    "name": "Nicholas D. Kristof"
+  }, 
+  {
+    "quote": "I'm looking more like my dogs every day - it must be the shaggy fringe and the ears.", 
+    "name": "Christine McVie"
+  }, 
+  {
+    "quote": "It was so cold today that I saw a dog chasing a cat, and the dog was walking.", 
+    "name": "Mickey Rivers"
+  }, 
+  {
+    "quote": "Perhaps it is because cats do not live by human patterns, do not fit themselves into prescribed behavior, that they are so united to creative people.", 
+    "name": "Andre Norton"
+  }, 
+  {
+    "quote": "Cats know how to obtain food without labor, shelter without confinement, and love without penalties.", 
+    "name": "W. L. George"
+  }, 
+  {
+    "quote": "I have studied many philosophers and many cats. The wisdom of cats is infinitely superior.", 
+    "name": "Hippolyte Taine"
+  }, 
+  {
+    "quote": "I love cats.", 
+    "name": "Dick Van Patten"
+  }, 
+  {
+    "quote": "I used to love dogs until I discovered cats.", 
+    "name": "Nafisa Joseph"
+  }, 
+  {
+    "quote": "Many cats are the death of the mouse.", 
+    "name": "Kaspar Hauser"
+  }, 
+  {
+    "quote": "Only very brave mouse makes nest in cat's ear.", 
+    "name": "Earl Derr Biggers"
+  }, 
+  {
+    "quote": "Kittens can happen to anyone.", 
+    "name": "Paul Gallico"
+  }, 
+  {
+    "quote": "Never stand between a dog and the hydrant.", 
+    "name": "John Peers"
+  }, 
+  {
+    "quote": "Don't sweat the petty things and don't pet the sweaty things.", 
+    "name": "George Carlin"
+  }, 
+  {
+    "quote": "A real Christian is a person who can give his pet parrot to the town gossip.", 
+    "name": "Billy Graham"
+  }, 
+  {
+    "quote": "I got a pet monkey called Charlie Chan.", 
+    "name": "Jimi Hendrix"
+  }, 
+  {
+    "quote": "My roommate got a pet elephant. Then it got lost. It's in the apartment somewhere.", 
+    "name": "Steven Wright"
+  }, 
+  {
+    "quote": "I worked in a pet store and people would ask how big I would get.", 
+    "name": "Rodney Dangerfield"
+  }, 
+  {
+    "quote": "Maybe humans are just the pet alligators that God flushed down the toilet.", 
+    "name": "Chuck Palahniuk"
+  }, 
+  {
+    "quote": "It is a good morning exercise for a research scientist to discard a pet hypothesis every day before breakfast. It keeps him young.", 
+    "name": "Konrad Lorenz"
+  }, 
+  {
+    "quote": "When a guy tells me I'm cute, it's not something desirable. Cute is more like what you want your pet to be.", 
+    "name": "Natalie Portman"
+  }, 
+  {
+    "quote": "A lover tries to stand in well with the pet dog of the house.", 
+    "name": "Moliere"
+  }, 
+  {
+    "quote": "Teach your children how to behave with animals. Adopt a pet. Don't go buy one. Please. That's a sin. Let's get these puppy mills out of business.", 
+    "name": "Shelley Morrison"
+  }, 
+  {
+    "quote": "I don't have pet peeves I have whole kennels of irritation.", 
+    "name": "Whoopi Goldberg"
+  }, 
+  {
+    "quote": "I really liked the snake that breaks out of the cage in the beginning of the movie. I saw it in real life, and it was really cool. Really big and fat. The owls are cool as well, but you can't really pet them.", 
+    "name": "Tom Felton"
+  }, 
+  {
+    "quote": "There's kind of a toll you have to pay with a cat if you don't pet her for 10 minutes she'll bother you for six hours.", 
+    "name": "Scott Adams"
+  }, 
+  {
+    "quote": "Vinyl is the real deal. I've always felt like, until you buy the vinyl record, you don't really own the album. And it's not just me or a little pet thing or some kind of retro romantic thing from the past. It is still alive.", 
+    "name": "Jack White"
+  }, 
+  {
+    "quote": "I'm scared to death of being poor. It's like a fat girl who loses 500 pounds but is always fat inside. I grew up poor and will always feel poor inside. It's my pet paranoia.", 
+    "name": "Cher"
+  }, 
+  {
+    "quote": "My pet peeve and my goal in life is to somehow get an adjective for 'integrity' in the dictionary. 'Truthful' doesn't really cover it, or 'genuine.' It should be like 'integritus.'", 
+    "name": "Rashida Jones"
+  }, 
+  {
+    "quote": "My parents used to take me to the pet department and tell me it was a zoo.", 
+    "name": "Billy Connolly"
+  }, 
+  {
+    "quote": "We created a line of pet food called Nutrish that's made to human standards, and 100 percent of the proceeds go to animal rescue. One of our top-tier donors is the ASPCA, and they help us challenge animal shelters all across the country to get more animals placed in homes.", 
+    "name": "Rachael Ray"
+  }, 
+  {
+    "quote": "It's a little known fact that one in three family pets gets lost during its lifetime, and approximately 9 million pets enter shelters each year. That's why it's a wonderful thing to get your pet microchipped and registered with your contact information because then they can be located and the owners can track where their pets are.", 
+    "name": "Betty White"
+  }, 
+  {
+    "quote": "I used to have this little mouse. I buy birds from the pet store and I let them go.", 
+    "name": "Ziggy Marley"
+  }, 
+  {
+    "quote": "We all know the stories about the Human Rights Act... about the illegal immigrant who cannot be deported because, and I am not making this up, he had a pet cat.", 
+    "name": "Theresa May"
+  }, 
+  {
+    "quote": "Every time I decide I want a child I get another pet. I have 3 dogs, 13 birds and 3 horses, what does that tell you?", 
+    "name": "Alyssa Milano"
+  }, 
+  {
+    "quote": "No one ever pretended that shopping for anything is a rational experience. If it were, would there be Fluffernutter? Laceless sneakers? Porkpie hats? Would the Chia Pet even exist?", 
+    "name": "Jeffrey Kluger"
+  }, 
+  {
+    "quote": "When you want a break from dogs, and you take them to the kennel to the stars, no one thinks you're a bad pet owner. But when you have kids, you can't drop them off for three weeks without someone calling Child Protective Services!", 
+    "name": "Gabrielle Union"
+  }, 
+  {
+    "quote": "A pet store is a celebration of dogs' existence and an explosion of options. About cats, a pet store seems to say, 'Here, we couldn't think of anything else.' Cats are the Hanukkah of the animal world in this way. They are feted quietly and happily by a minority, but there's only so much hoopla applicable to them.", 
+    "name": "Sloane Crosley"
+  }, 
+  {
+    "quote": "I love animals and feel very strongly that people should not be allowed to buy a pet if they are not able to look after it.", 
+    "name": "Kirsty Gallacher"
+  }, 
+  {
+    "quote": "Our pets rely on us entirely for their nutrition. So if you're making your own judgments, that could lead to a mistake. At the same time, we have more control over our pet's diet than we do with our children or with ourselves, so your vet can tell you what is appropriate for your dog and you can assign them that.", 
+    "name": "Alison Sweeney"
+  }, 
+  {
+    "quote": "Humans should always exercise and watch what they eat. So with your pet, make sure they get enough exercise, make sure they're getting fed at the same time every day and getting the nutrition they need. And make sure they get a lot of love and attention you both need. That's why you have them!", 
+    "name": "Alison Sweeney"
+  }, 
+  {
+    "quote": "One of my pet peeves is that sometimes the talents of my band get overlooked because, and it was the same problem that Frank Zappa had, with a lot of groups that use humor, people don't realize there's a lot of craft behind the comedy.", 
+    "name": "Al Yankovic"
+  }, 
+  {
+    "quote": "In their heyday, the Pet Shop Boys were the Interpol of the Eighties, dressing up to sing really weird pop songs about lust and loneliness in the big city. They're low-pro now, not retro-worshipped in the manner of Depeche Mode, New Order, or The Cure, but you can hear the reason why - these guys are too sad.", 
+    "name": "Rob Sheffield"
+  }, 
+  {
+    "quote": "It doesn't work if the bad guys kill his mother's uncle's friend's neighbor's pet dog. You've got to make the stakes high.", 
+    "name": "Steven Seagal"
+  }, 
+  {
+    "quote": "Environmentalists hate sprawl - except when it comes to the size of their expansive pet legislation on Capitol Hill.", 
+    "name": "Michelle Malkin"
+  }, 
+  {
+    "quote": "I have a lot of plants and fish and a pet lizard and Venus flytraps. I have a whole ecosystem in my room, like a running waterfall and different lights and sensors set on digital timers.", 
+    "name": "Chris Pratt"
+  }, 
+  {
+    "quote": "I have a pet lizard named Puff, five goldfish - named Pinky, Brain, Jowels, Pearl and Sandy, an oscar fish named Chef, two pacus, an albino African frog named Whitey, a bonsai tree, four Venus flytraps, a fruit fly farm and sea monkeys.", 
+    "name": "Chris Pratt"
+  }, 
+  {
+    "quote": "Truth be told, ginormous portions have become a pet peeve of mine.", 
+    "name": "Hal Sparks"
+  }, 
+  {
+    "quote": "I brought a Border Collie back home to Vancouver from Wales - where some of my ancestors are from - and needed to challenge him in other ways than just being my pet. So I investigated sheep herding and took a few lessons, and decided I was probably learning more than my dog!", 
+    "name": "Jane Siberry"
+  }, 
+  {
+    "quote": "Packing is my pet hate.", 
+    "name": "Seal"
+  }, 
+  {
+    "quote": "I'd say the best is when I was in Africa, I saw a hippo in a house. Someone had a pet hippo. And they're meant to be one of the most dangerous animals on the planet, and they had one that was sort of just wandering in and out of their house, just sort of roaming about.", 
+    "name": "Karl Pilkington"
+  }, 
+  {
+    "quote": "I'm not about to go out and buy a snake for a pet. I mean, I may have faced a few fears but I'm not insane.", 
+    "name": "Kristin Davis"
+  }, 
+  {
+    "quote": "I have the same pet peeve as Anderson Cooper, which is bare feet in public. I hate it. It so grosses me out, especially in New York. Oh my God, New York in the summer with people and their feet in their sandals and their flip-flops, like get it away!", 
+    "name": "Busy Philipps"
+  }, 
+  {
+    "quote": "I try not to wear anything I have to fidget with - there's nothing worse than wearing something and pulling down the hem and re-adjusting the top. My pet hate is when girls wear those strapless dresses and spend the whole night yanking them up.", 
+    "name": "Sophie Ellis-Bextor"
+  }, 
+  {
+    "quote": "My idea of a perfect pet is a really, really big dog! Huge!", 
+    "name": "Emily VanCamp"
+  }, 
+  {
+    "quote": "I've been lucky. I've made films that I really like. It's been a combination of what comes to me and what I choose. I've gone after lots of things that I didn't get, pet projects that everybody ends up chasing after. Really, you're lucky if you get anything.", 
+    "name": "Hope Davis"
+  }, 
+  {
+    "quote": "If you have a deep-seated need to be loved and admired every day, you shouldn't be in politics. You should go work at a pet store.", 
+    "name": "Michael Nutter"
+  }, 
+  {
+    "quote": "Pet lovers know that animals sometimes understand us better than we do, and the annals of human sin and desire provide plenty of stories to drive the point home.", 
+    "name": "Tony Snow"
+  }, 
+  {
+    "quote": "My parents were very permissive when it came to animals. As long as we earned the money to buy them and built whatever structure it was they were going to live in, we could have any kind of pet we wanted. They would have let us have a rhinoceros if we could have afforded it.", 
+    "name": "Maggie Stiefvater"
+  }, 
+  {
+    "quote": "There are people all over the world who like to write fan letters in the voice of their pet: 'Hello, my name is Fifi and I'm a labrador and I think you're great. Paw paw!'", 
+    "name": "Rebecca Hall"
+  }, 
+  {
+    "quote": "To me, a cat is an easy pet, they don't need any spoiling or looking after.", 
+    "name": "Karl Pilkington"
+  }, 
+  {
+    "quote": "I've teamed up with PetSmart Charities to celebrate the five million homeless pets who've found homes through their in-store adoption centers, and to spread the word about how we can work together to save millions more pets' lives and, ultimately, end pet homelessness.", 
+    "name": "Josh Duhamel"
+  }, 
+  {
+    "quote": "It is one of my pet hates when I see players who have agents who do everything for them. They don't know how to set up their own bank accounts, they don't know what they are spending their money on and they can't make their own decisions.", 
+    "name": "Gary Neville"
+  }, 
+  {
+    "quote": "The government needs to help those in need, but members of Congress shouldn't take advantage of the situation and use a national tragedy as an opportunity to spend taxpayer dollars on their pet projects.", 
+    "name": "Chris Chocola"
+  }, 
+  {
+    "quote": "I had a big Akita, Yoshi, who was fabulous. I loved him. We lost him when he was 12, and I've never been able to replace him. Normally, most people lose a pet and get another and keep going on. But it just felt wrong to me it felt disloyal.", 
+    "name": "Robert Crais"
+  }, 
+  {
+    "quote": "I could probably give you a list of a dozen pet peeves I have about my own physicality and why I couldn't get a second date.", 
+    "name": "Zachary Levi"
+  }, 
+  {
+    "quote": "Our cat is kind dove shellfish, and thinks the world is hers, She finds a comfy spot and then we pet turtle sheep purrs.", 
+    "name": "Brian P. Cleary"
+  }, 
+  {
+    "quote": "You can get too bogged down in technology and you can sort of forget what it is you were trying to do. And with the Pet Shop Boys it's primarily about the songs, it's about song writing.", 
+    "name": "Chris Lowe"
+  }, 
+  {
+    "quote": "We all have our pet things that we like to get religious about.", 
+    "name": "Max Cannon"
+  }, 
+  {
+    "quote": "I am an enthusiast, but not a crank in the sense that I have some pet theories as to the proper construction of a flying machine. I wish to avail myself of all that is already known and then, if possible, add my mite to help on the future worker who will attain final success.", 
+    "name": "Wilbur Wright"
+  }, 
+  {
+    "quote": "We are telling veterans they must sacrifice to pay for the pet projects and contracts to campaign donors of powerful members of Congress.", 
+    "name": "Nick Lampson"
+  }, 
+  {
+    "quote": "Those who wish to pet and baby wild animals 'love' them. But those who respect their natures and wish to let them live normal lives, love them more.", 
+    "name": "Edwin Way Teale"
+  }, 
+  {
+    "quote": "There are things that I invented - the creaky geriatric robot that is always grumpy, for example, or the little wheelie guy, he's not in the Hasbro lore. But kids love that stuff - this little guy as a pet on a chain. They gravitate towards it.", 
+    "name": "Michael Bay"
+  }, 
+  {
+    "quote": "I have some road rage inside of me. Traffic, especially in L.A., is a pet peeve of mine.", 
+    "name": "Katie Holmes"
+  }, 
+  {
+    "quote": "I have a Lab, it's fun to hang out and hike with the dog, people come up to him, and pet him, it's fun.", 
+    "name": "George Eads"
+  }, 
+  {
+    "quote": "I heard that Jesus had a pet dinosaur. Evolution must be a myth then.", 
+    "name": "John Bacon"
+  }, 
+  {
+    "quote": "Gypsy was the name my brother gave a pet turtle he had. I always thought it was so peculiar.", 
+    "name": "Joel Hodgson"
+  }, 
+  {
+    "quote": "Crabbed and obscure definitions are of no use beyond a narrow circle of students, of whom probably every one has a pet one of his own.", 
+    "name": "Frederick Pollock"
+  }, 
+  {
+    "quote": "I was in New York and I walked into this pet store and came out with a dog.", 
+    "name": "Beverley Mitchell"
+  }, 
+  {
+    "quote": "Pet me, touch me, love me, that's what I get when I perform. That's when I'm really getting what I want.", 
+    "name": "Connie Stevens"
+  }, 
+  {
+    "quote": "I think there's something great and generic about goldfish. They're everybody's first pet.", 
+    "name": "Paul Rudd"
+  }, 
+  {
+    "quote": "My biggest pet peeve are just girls who go to sports bars who have no intention on caring what teams are playing, like they're looking for just a night out. That drives me more crazy than anything else. Like, don't pretend to be a sports fan.", 
+    "name": "Jerry Ferrara"
+  }, 
+  {
+    "quote": "It's true, you can never eat a pet you name. And anyway, it would be like a ventriloquist eating his dummy.", 
+    "name": "Alexander Theroux"
+  }, 
+  {
+    "quote": "Pet stores just sell their animals.", 
+    "name": "Booboo Stewart"
+  }, 
+  {
+    "quote": "I have this pet thing about how global communications are moving so fast now, throwing information at you, making everything available to you, and yet I feel it's leaving us more and more isolated.", 
+    "name": "Mike Rutherford"
+  }, 
+  {
+    "quote": "To this day I don't ever remember seeing a pet inside Moscow, I never saw anyone carrying a dog, or leading a dog. Err I finally saw a, a pet some years later in Kiev, so I thought that life must have been, different.", 
+    "name": "Ralph Boston"
+  }, 
+  {
+    "quote": "And I strongly believe people should rescue dogs, or, at the very least, listen to Bob Barker and have your pet spayed or neutered.", 
+    "name": "Justin Chambers"
+  }, 
+  {
+    "quote": "One of my biggest pet peeves is that I just don't like it when characters do things that are funny to the writer, but you don't know why they're doing it and it doesn't make any sense.", 
+    "name": "Glenn Howerton"
+  }, 
+  {
+    "quote": "I always pet a dog with my left hand because if he bit me I'd still have my right hand to paint with.", 
+    "name": "Juan Gris"
+  }, 
+  {
+    "quote": "I was in three academic clubs, a huge book worm and the teacher's pet. I was kind of an easy target for bullies.", 
+    "name": "Nicole Anderson"
+  }
+]

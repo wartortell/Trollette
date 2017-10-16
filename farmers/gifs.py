@@ -6,14 +6,14 @@ import argparse
 
 from apis.giphy import GiphyAPI
 from helpers import default_logger, get_data_folder, get_file_md5
+from farmers import DataFarmer
 
 
-class GifFarmer:
-    def __init__(self, logger=None):
-        self.logger = logger
-        if not self.logger:
-            self.logger = default_logger
+class GifFarmer(DataFarmer):
+    def initialize_apis(self):
+        self.giphy = GiphyAPI(self.logger)
 
+    def initialize_paths(self):
         self.gif_folder_path = get_data_folder("gifs")
         self.gif_hashes_json = os.path.join(self.gif_folder_path, "hashes.json")
 
@@ -23,8 +23,6 @@ class GifFarmer:
 
         with open(self.gif_hashes_json, "r") as f:
             self.gifs = json.load(f)
-
-        self.giphy = GiphyAPI(self.logger)
 
     def show_gif_counts(self):
         self.logger("Current GIF Counts:\n-----------------------")
