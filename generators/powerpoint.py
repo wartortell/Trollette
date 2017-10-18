@@ -10,7 +10,6 @@ from pptx.util import Inches, Pt
 from pptx.enum.text import PP_PARAGRAPH_ALIGNMENT
 from pymarkovchain import MarkovChain
 
-from slide_weights import SlideWeights
 from helpers import SlideWeights, get_data_folder
 
 

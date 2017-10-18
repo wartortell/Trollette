@@ -32,15 +32,18 @@ class TextFarmer(DataFarmer):
     def initialize_paths(self):
         pass
 
-    def farm_all_text(self, term):
+    def farm_data(self, **kwargs):
+        topic = kwargs.get("topic")
+        threshold = kwargs.get("threshold")
+
         # Get all of the links to farm from google
-        links = self.searcher.google_basic_search(term, 10)
+        links = self.searcher.google_basic_search(topic, 10)
 
         # Get the wikipedia data
-        w = self.wiki_searcher.farm_wikipedia(term)
+        w = self.wiki_searcher.farm_wikipedia(topic)
 
         # Get twitter content
-        t = self.twit_searcher.farm_tweets(term)
+        t = self.twit_searcher.farm_tweets(topic)
 
         # Farm all of the links for daterz
         text_data = list()

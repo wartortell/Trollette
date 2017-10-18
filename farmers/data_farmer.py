@@ -27,7 +27,7 @@ class DataFarmer:
         """
         pass
 
-    def get_farmed_info(self):
+    def farm_data(self, **kwargs):
         """
         Description: Place holder for an information retrieval function about what's been farmed
         
